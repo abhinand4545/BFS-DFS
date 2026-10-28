@@ -1,0 +1,21 @@
+Adjacency Matrix:
+       0  1  2  3  4  5  6  7  8  9
+ 0     0  1  1  1  0  0  0  0  0  0   (root)
+ 1     0  0  0  0  1  1  0  0  0  0   (docs)
+ 2     0  0  0  0  0  0  1  1  0  0   (images)
+ 3     0  0  0  0  0  0  0  0  1  1   (src)
+ 4     0  0  0  0  0  0  0  0  0  0   (notes.txt)
+ 5     0  0  0  0  0  0  0  0  0  0   (resume.pdf)
+ 6     0  0  0  0  0  0  0  0  0  0   (photo.jpg)
+ 7     0  0  0  0  0  0  0  0  0  0   (logo.png)
+ 8     0  0  0  0  0  0  0  0  0  0   (main.c)
+ 9     0  0  0  0  0  0  0  0  0  0   (utils.c)
+
+Enter starting node: root
+Enter file to search: photo.jpg
+
+BFS traversal: root docs images src notes.txt resume.pdf photo.jpg
+BFS result: photo.jpg FOUND
+
+DFS traversal: root docs notes.txt resume.pdf images photo.jpg
+DFS result: photo.jpg FOUND
